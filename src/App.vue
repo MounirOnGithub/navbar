@@ -11,8 +11,8 @@ const navs = [
     <router-link v-for="nav in navs" :key="nav.name" :to="nav.path" class="mr-4">
       {{ nav.name }}
     </router-link>
-    <router-view />
   </div>
+  <router-view />
 </template>
 
 <style lang="scss" scoped></style>
