@@ -1,12 +1,16 @@
 {
-  "name": "navbar",
-  "version": "0.0.0",
-  "private": true,
+  "name": "ninjanirmou-navbar",
+  "version": "1.0.0",
+  "types": "dist/index.d.ts",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "files": [
+    "dist"
+  ],
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "run-p type-check \"build-only {@}\" --",
-    "preview": "vite preview",
     "test:unit": "vitest",
     "build-only": "vite build",
     "type-check": "vue-tsc --build --force",
